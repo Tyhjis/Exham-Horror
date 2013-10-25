@@ -1,5 +1,7 @@
 ﻿#pragma strict
 
+//Valtter Taipale 2013 IGP
+
 class ShootingController extends MonoBehaviour{
 	 
 	public var projectile : Rigidbody;

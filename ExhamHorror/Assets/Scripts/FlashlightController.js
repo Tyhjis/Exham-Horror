@@ -1,5 +1,7 @@
 ﻿#pragma strict
 
+//Valtter Taipale 2013 IGP
+
 class FlashlightController extends MonoBehaviour{
 	 
 	public var flashlight : Light;
