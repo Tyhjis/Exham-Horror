@@ -19,7 +19,7 @@ class RotateController extends MonoBehaviour
 	
 	function Update () {
 	
-		if (rotate_forward == true){
+	/*	if (rotate_forward == true){
 			Rotate_Object.Rotate(Vector3.forward * Time.deltaTime*rotate_speed);
 		}
 		if (rotate_x == true){
@@ -27,7 +27,7 @@ class RotateController extends MonoBehaviour
 		}
 		if (rotate_up == true){
 			Rotate_Object.Rotate(Vector3.up * Time.deltaTime*rotate_speed);
-		}
+		}*/
 
 	}
 }

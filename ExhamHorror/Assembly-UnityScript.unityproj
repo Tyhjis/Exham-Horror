@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\FlashlightController.js" />
      <Compile Include="Assets\Scripts\RotateController.js" />
+     <Compile Include="Assets\Scripts\ShadowDamageController.js" />
      <Compile Include="Assets\Scripts\ShootingController.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
