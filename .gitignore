@@ -5,6 +5,11 @@ Temp/
 Obj/
 UnityGenerated/
 Library/
+
+ExhamHorror/Temp/
+ExhamHorror/Obj/
+ExhamHorror/UnityGenerated/
+ExhamHorror/Library/
  
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
