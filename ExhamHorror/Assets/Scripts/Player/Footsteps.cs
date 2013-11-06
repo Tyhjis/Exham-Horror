@@ -16,7 +16,7 @@ public class Footsteps : MonoBehaviour {
 	void Update () {
 	
 		
-		if( characterMotor.IsJumping() ||
+		if( !characterMotor.IsGrounded() ||
 			characterMotor.movement.velocity == Vector3.zero) {
 			
 			walking = false;
