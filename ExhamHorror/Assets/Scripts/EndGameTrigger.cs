@@ -33,6 +33,7 @@ public class EndGameTrigger : MonoBehaviour {
 			Whiteboards.SetActive(false);
 			
 			secondShadowMan.SetActive(true);
+			bonusShadowMan.SetActive(true);
 
 
 		}
