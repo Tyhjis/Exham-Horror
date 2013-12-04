@@ -10,6 +10,8 @@ public class IntroSequence : MonoBehaviour {
 	private Texture2D currentImage = null;
 	private int sequencePart = 0;	
 	
+	private KeyCode[] skipKeys = new KeyCode[]{KeyCode.Escape, KeyCode.Return};
+	
 	
 	void Awake () {
 	
@@ -20,6 +22,7 @@ public class IntroSequence : MonoBehaviour {
 	
 	void OnGUI()
 	{
+		CheckInput();
 		SequenceControl();
 		Display();
 	}
@@ -153,6 +156,16 @@ public class IntroSequence : MonoBehaviour {
 		}
 		
 		
+	}
+	
+	
+	void CheckInput()
+	{
+		foreach( KeyCode key in skipKeys) {
+			if( Input.GetKey(key)) {
+				StartGame ();
+			}
+		}
 	}
 	
 
