@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 // IGP Valtter Taipale 2013
@@ -12,6 +12,8 @@ public class PlayerInventory : MonoBehaviour {
 	//Gun is used to check ammo
 	public GameObject gun_object;
 	//object is used to turn the whole thing off!
+	
+
 	
 	public PlayerGUI gui;
 	
@@ -43,6 +45,7 @@ public class PlayerInventory : MonoBehaviour {
 		{
 			gun_object.SetActive(false);
 		}
+		
 		
 	
 	}

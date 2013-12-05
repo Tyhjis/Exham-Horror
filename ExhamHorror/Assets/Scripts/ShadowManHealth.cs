@@ -32,6 +32,11 @@ public class ShadowManHealth : MonoBehaviour {
 		regenerationTime = Time.time + regenerationGap;
 		needRegeneration = true;
 		
+		//If Shadow takes damage it automatically Detects Player
+		if (movement.detected == false){
+			movement.setDetected();
+		}
+		
 	}
 	
 	void Regenerate() {

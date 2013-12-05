@@ -3,6 +3,8 @@ using System.Collections;
 
 // IGP Valtter Taipale 2013
 
+//For the ENDGAME of Excactum Level.. Not the best name currently
+
 public class EndGameTrigger : MonoBehaviour {
 
 	public GameObject valot;
@@ -11,6 +13,7 @@ public class EndGameTrigger : MonoBehaviour {
 	
 	public GameObject Whiteboards;
 	public GameObject blackWhiteboards;
+	public GameObject DarkClouds;
 	
 	public GameObject secondShadowMan;
 	
@@ -31,6 +34,8 @@ public class EndGameTrigger : MonoBehaviour {
 			
 			blackWhiteboards.SetActive(true);
 			Whiteboards.SetActive(false);
+			
+			DarkClouds.SetActive(true);
 			
 			secondShadowMan.SetActive(true);
 			bonusShadowMan.SetActive(true);

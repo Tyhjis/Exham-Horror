@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// IGP Valtter Taipale 2013
+
+//Opens Cellar and turns on all cellarlights
+
 public class OpenCellar : MonoBehaviour {
 	
 	//The Give Points Script of First Gramophone

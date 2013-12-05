@@ -15,6 +15,6 @@ public class VictoryScript : MonoBehaviour {
 	
 	// This will be called when there are no more Gramophones left to visit.
 	private void endTheGame() {
-		Application.LoadLevel("Game");
+		Application.LoadLevel("Endgame");
 	}
 }

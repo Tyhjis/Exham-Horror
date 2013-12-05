@@ -1,27 +1,37 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// by Santeri
+// by Santeri 
+// Modified by VT
 
 public class PauseScreen : MonoBehaviour {
 	
 	public bool paused = false;
 	public Font font;
 	private GUIStyle buttonStyle;
-	public Texture2D texture;
+	public Texture2D Pausetexture;
+	public AudioListener PlayerEars;
+	public PlayerGUI PlayerEyes;
+	
 	
 	void Update() {
 		
 		if (paused) {
-			Time.timeScale = 0;
+			Time.timeScale = 0.0f;
 			Screen.showCursor = true;
 			Screen.lockCursor = false;
+			
+			PlayerEars.enabled = false;
+			PlayerEyes.enabled = false;
 
 		} 
 		else {
-			Time.timeScale = 1;
+			Time.timeScale = 1.0f;
 			Screen.showCursor = false;
 			Screen.lockCursor = true;
+			
+			PlayerEars.enabled = true;
+			PlayerEyes.enabled = true;
 
 		}
 		
@@ -47,7 +57,7 @@ public class PauseScreen : MonoBehaviour {
 		}
 		
 		// piirretään tausta mustaksi käyttäen tekstuuria
-		GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), texture, ScaleMode.StretchToFill, true);
+		GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Pausetexture, ScaleMode.StretchToFill, true);
 		
 		// tehdään napeista taustoista läpinäkyviä niin, että vain teksti näkyy
 		GUI.backgroundColor = Color.clear;

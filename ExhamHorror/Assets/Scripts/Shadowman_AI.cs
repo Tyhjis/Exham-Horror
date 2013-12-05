@@ -23,6 +23,7 @@ public class Shadowman_AI : MonoBehaviour {
 	}
 	
 	void Update () {
+		
 		// Jos pelaaja on huomattu..
 		if (detected == true) {
 			// ..ja viive huomaamisesta hyökkäämiseen on kulunut umpeen,...

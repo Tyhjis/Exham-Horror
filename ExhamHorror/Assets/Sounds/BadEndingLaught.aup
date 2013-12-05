@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="BadEndingLaught_data" version="1.3.0" audacityversion="2.0.2" sel0="0.0000000000" sel1="10.3360334202" vpos="0" h="0.0000000000" zoom="43.0664062500" rate="44100.0">
+	<tags/>
+	<wavetrack name="Audioraita" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="2.818383" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1712128">
+				<waveblock start="0">
+					<simpleblockfile filename="e000083a.au" len="262144" min="-0.000926" max="0.000829" rms="0.000197"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e00006c5.au" len="262144" min="-0.013255" max="0.012461" rms="0.00075"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e00008fe.au" len="262144" min="-0.109736" max="0.118241" rms="0.021899"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000e3e.au" len="262144" min="-0.237122" max="0.213465" rms="0.040574"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0000cf6.au" len="262144" min="-0.165424" max="0.163689" rms="0.027047"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e00006c7.au" len="262144" min="-0.374826" max="0.402473" rms="0.042406"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e000056f.au" len="139264" min="-0.019255" max="0.016619" rms="0.001925"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audioraita" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="2.818383" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1712128">
+				<waveblock start="0">
+					<simpleblockfile filename="e000005b.au" len="262144" min="-0.000817" max="0.000893" rms="0.000196"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000edd.au" len="262144" min="-0.0115" max="0.012147" rms="0.00074"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e000008d.au" len="262144" min="-0.13334" max="0.126309" rms="0.022009"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e00003b0.au" len="262144" min="-0.218346" max="0.200163" rms="0.040532"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e00006b7.au" len="262144" min="-0.219951" max="0.221693" rms="0.028094"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0000b4f.au" len="262144" min="-0.335351" max="0.372926" rms="0.042835"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e00001b8.au" len="139264" min="-0.019524" max="0.022406" rms="0.00205"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audioraita" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="3.548134" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="455819">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000aea.au" len="262144" min="-0.104674" max="0.105812" rms="0.021812"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000132.au" len="193675" min="-0.243828" max="0.21674" rms="0.041527"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="10.336009070295" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="10.33603175">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1205">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c0c.au" len="1205" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audioraita" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="3.548134" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="455819">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000332.au" len="262144" min="-0.136009" max="0.124944" rms="0.022156"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e00002f7.au" len="193675" min="-0.216182" max="0.195699" rms="0.041238"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="10.336009070295" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="10.33603175">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1205">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c7e.au" len="1205" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>
