@@ -26,8 +26,7 @@ public class MenuItem : MonoBehaviour {
 	void OnMouseDown()
 	{
 		if (gameObject.tag == "txt_newgame") {
-			// oletuksena, että intro on 0, päämenu 1 ja itse peli 2
-			Application.LoadLevel(2);
+			Application.LoadLevel("Game");
 		}
 		
 		if (gameObject.tag == "txt_credits") {
@@ -49,11 +48,18 @@ public class MenuItem : MonoBehaviour {
 		GameObject.Find("Text_newgame").renderer.enabled = false;
 		GameObject.Find("Text_credits").renderer.enabled = false;
 		GameObject.Find("Text_quit").renderer.enabled = false;
+		
 		GameObject.Find("Text_valtter").renderer.enabled = true;
 		GameObject.Find("Text_kristian").renderer.enabled = true;
 		GameObject.Find("Text_kasper").renderer.enabled = true;
 		GameObject.Find("Text_santeri").renderer.enabled = true;
 		GameObject.Find("Text_back").renderer.enabled = true;
+		
+		// colliderit otetaan pois pelistä, jotta niitä ei voi klikata niiden ollessa piilossa
+		GameObject.Find("Text_newgame").collider.enabled = false;
+		GameObject.Find("Text_credits").collider.enabled = false;
+		GameObject.Find("Text_quit").collider.enabled = false;
+		GameObject.Find("Text_back").collider.enabled = true;
 	}
 	
 	// nimet piiloon ja valikko esiin
@@ -62,11 +68,18 @@ public class MenuItem : MonoBehaviour {
 		GameObject.Find("Text_newgame").renderer.enabled = true;
 		GameObject.Find("Text_credits").renderer.enabled = true;
 		GameObject.Find("Text_quit").renderer.enabled = true;
+		
 		GameObject.Find("Text_valtter").renderer.enabled = false;
 		GameObject.Find("Text_kristian").renderer.enabled = false;
 		GameObject.Find("Text_kasper").renderer.enabled = false;
 		GameObject.Find("Text_santeri").renderer.enabled = false;
 		GameObject.Find("Text_back").renderer.enabled = false;
+		
+		// colliderit palautetaan ennalleen
+		GameObject.Find("Text_newgame").collider.enabled = true;
+		GameObject.Find("Text_credits").collider.enabled = true;
+		GameObject.Find("Text_quit").collider.enabled = true;
+		GameObject.Find("Text_back").collider.enabled = false;
 	}
 	
 }
