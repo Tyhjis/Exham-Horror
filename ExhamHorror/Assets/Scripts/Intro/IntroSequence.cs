@@ -13,8 +13,10 @@ public class IntroSequence : MonoBehaviour {
         private KeyCode[] skipKeys = new KeyCode[]{KeyCode.Escape, KeyCode.Return};
         
         
-        void Awake () {
+        void Awake () 
+        {
         
+                Time.timeScale = 1;     // Cuz we gods we gotta remember dat time yo
                 blackFade = GetComponent<BlackFade>();
                 images = Resources.LoadAll(imagesFolder, typeof(Texture2D));
                 
