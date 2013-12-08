@@ -15,6 +15,9 @@ public class MenuItem : MonoBehaviour {
 	// valittavien kohteiden värinmuutos (tekijöiden nimillä tai pelin nimellä ei ole collideria)
 	void OnMouseEnter() 
 	{
+		if( audio != null) {
+			audio.Play ();
+		}
 		renderer.material.color = Color.red;
 	}
 	
@@ -25,6 +28,9 @@ public class MenuItem : MonoBehaviour {
 	
 	void OnMouseDown()
 	{
+		if( audio != null) {
+			audio.Play ();
+		}
 		if (gameObject.tag == "txt_newgame") {
 			// oletuksena, että intro on 0, päämenu 1 ja itse peli 2
 			//Nope: Menu 0, Intro 1, peli 2, engame 3, credits 4!
